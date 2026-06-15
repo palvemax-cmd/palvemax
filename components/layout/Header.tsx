@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import LangSwitcher from "@/components/ui/LangSwitcher";
 import { useState } from "react";
 import { PHONE_DISPLAY, PHONE_RAW, WHATSAPP_URL, WHATSAPP_NUMBER } from "@/lib/constants";
 
@@ -63,6 +64,7 @@ export default function Header() {
 
         {/* Desktop CTA — только WhatsApp + Заявка */}
         <div className="hidden md:flex items-center gap-3">
+          <LangSwitcher />
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -110,7 +112,10 @@ export default function Header() {
               </Link>
             ))}
           </nav>
-          <div className="flex flex-col gap-3 pt-3 border-t border-gray-100">
+          <div className="flex items-center justify-center gap-2 pt-3 border-t border-gray-100 mb-3">
+            <LangSwitcher />
+          </div>
+          <div className="flex flex-col gap-3">
             <a
               href={WHATSAPP_URL}
               target="_blank"
