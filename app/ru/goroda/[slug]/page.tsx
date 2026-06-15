@@ -6,6 +6,7 @@ import { services } from "@/content/services/services";
 import { WHATSAPP_URL } from "@/lib/constants";
 import { cities, getCityBySlug, getAllCitySlugs } from "@/content/cities/cities";
 import { testimonials } from "@/content/testimonials/testimonials";
+import { ServiceIcon } from "@/components/icons/ServiceIcons";
 
 interface Props {
   params: Promise<{ slug: string }>;

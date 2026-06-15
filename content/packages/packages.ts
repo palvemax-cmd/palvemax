@@ -1,7 +1,6 @@
 export interface Package {
   slug: string;
   season: "summer" | "autumn" | "winter" | "annual";
-  icon: string;
   ru: {
     name: string;
     tagline: string;
@@ -21,7 +20,6 @@ export const packages: Package[] = [
   {
     slug: "letnij-paket",
     season: "summer",
-    icon: "☀️",
     ru: {
       name: "Летний пакет",
       tagline: "Двор в порядке с мая по август",
@@ -49,7 +47,6 @@ export const packages: Package[] = [
   {
     slug: "osennij-paket",
     season: "autumn",
-    icon: "🍂",
     ru: {
       name: "Осенний пакет",
       tagline: "Листья убраны, участок готов к зиме",
@@ -77,7 +74,6 @@ export const packages: Package[] = [
   {
     slug: "zimnij-paket",
     season: "winter",
-    icon: "❄️",
     ru: {
       name: "Зимний пакет",
       tagline: "После каждого снегопада — дорожка чистая",
@@ -105,7 +101,6 @@ export const packages: Package[] = [
   {
     slug: "godovoe-obsluzhivanie",
     season: "annual",
-    icon: "🏡",
     ru: {
       name: "Годовое обслуживание",
       tagline: "Один договор — двор в порядке весь год",

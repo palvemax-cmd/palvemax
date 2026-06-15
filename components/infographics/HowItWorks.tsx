@@ -69,7 +69,15 @@ export default function HowItWorksInfographic() {
               className="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-md"
               style={{ backgroundColor: "var(--blue)" }}
             >
-              {step.icon}
+              {(() => {
+                const icons = [
+                  <svg key="1" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="8" y="18" width="20" height="14" rx="2"/><path d="M12 18v-3a6 6 0 0112 0v3"/><circle cx="18" cy="10" r="3"/></svg>,
+                  <svg key="2" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="6" y="6" width="24" height="24" rx="3"/><path d="M12 14h12M12 18h8M12 22h10"/></svg>,
+                  <svg key="3" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="18" r="12"/><path d="M14 18l3 3 7-7"/></svg>,
+                  <svg key="4" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="4" y="10" width="28" height="18" rx="3"/><path d="M4 16h28"/><path d="M10 22h4M20 22h6"/></svg>,
+                ];
+                return icons[steps.indexOf(step)] || null;
+              })()}
             </div>
             {/* Number tag */}
             <div
