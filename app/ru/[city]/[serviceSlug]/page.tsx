@@ -5,6 +5,7 @@ import ContactForm from "@/components/forms/ContactForm";
 import { services, getServiceBySlug, getAllServiceSlugs } from "@/content/services/services";
 import { cities, getCityBySlug, getAllCitySlugs } from "@/content/cities/cities";
 import { testimonials } from "@/content/testimonials/testimonials";
+import { ServiceIcon } from "@/components/icons/ServiceIcons";
 
 interface Props {
   params: Promise<{ city: string; serviceSlug: string }>;
