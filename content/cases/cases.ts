@@ -135,3 +135,11 @@ export const cases: Case[] = [
 export function getCasesByService(serviceSlug: string): Case[] {
   return cases.filter((c) => c.serviceSlug === serviceSlug);
 }
+
+export function getCaseBySlug(slug: string) {
+  return cases.find((c) => c.slug === slug);
+}
+
+export function getAllCaseSlugs(): string[] {
+  return cases.map((c) => c.slug);
+}

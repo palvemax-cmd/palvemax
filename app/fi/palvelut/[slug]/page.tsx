@@ -182,8 +182,8 @@ export default async function FiServicePage({ params }: Props) {
               {serviceTestimonials.map((t) => (
                 <div key={t.id} className="card">
                   <div className="stars text-sm mb-2">{"★".repeat(t.rating)}</div>
-                  <p className="text-sm text-gray-700 leading-relaxed mb-3 italic">&ldquo;{t.text}&rdquo;</p>
-                  <div className="text-xs text-gray-500">{t.name} · {t.city}</div>
+                  <p className="text-sm text-gray-700 leading-relaxed mb-3 italic">&ldquo;{t.textFi}&rdquo;</p>
+                  <div className="text-xs text-gray-500">{t.nameFi} · {t.city}</div>
                 </div>
               ))}
             </div>

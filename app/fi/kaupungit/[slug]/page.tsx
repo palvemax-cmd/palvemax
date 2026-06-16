@@ -141,8 +141,8 @@ export default async function FiCityPage({ params }: Props) {
               {cityTestimonials.map((t) => (
                 <div key={t.id} className="card">
                   <div className="stars text-sm mb-2">{"★".repeat(t.rating)}</div>
-                  <p className="text-sm text-gray-700 italic leading-relaxed mb-3">&ldquo;{t.text}&rdquo;</p>
-                  <div className="text-xs text-gray-500">{t.name} · {t.service}</div>
+                  <p className="text-sm text-gray-700 italic leading-relaxed mb-3">&ldquo;{t.textFi}&rdquo;</p>
+                  <div className="text-xs text-gray-500">{t.nameFi} · {t.serviceFi}</div>
                 </div>
               ))}
             </div>
