@@ -772,6 +772,13 @@ export const services: Service[] = [
       h1: "Lawn Mowing in Finland — Your Yard Stays Neat While You Work",
       intro:
         "PalveMax provides regular lawn mowing throughout the Finnish summer season — equipment included, clippings removed.",
+      whatWeOffer: [
+        "Regular lawn mowing every 1-2 weeks",
+        "Edge trimming — clean lines everywhere",
+        "Grass collection and removal or composting",
+        "Storm clean-up on request",
+        "We bring our own equipment — nothing to buy",
+      ],
     },
   },
   {

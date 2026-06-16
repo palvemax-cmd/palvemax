@@ -25,6 +25,19 @@ const enTitles: Record<string, string> = {
   "demontazh-mebeli-loppi": "Kitchen and wardrobe disassembly for a move in Loppi",
 };
 
+
+const enDescriptions: Record<string, string> = {
+  "pereezd-riihimaki-2024": "Family moving from a 3-bedroom flat on the 4th floor with no elevator. Large PAX wardrobe and a piano.",
+  "sborka-ikea-hyvinkaa": "New METOD kitchen, 12 units. Client had it delivered but decided not to assemble it himself.",
+  "loppusiivous-hameenlinna": "Moving out of a rental flat after 4 years. Strict Finnish landlord. Professional cleaning required.",
+  "pokos-loppi-sezon": "Farm plot with a large lawn, trees and complex edges. Owner comes at weekends from Hyvinkää.",
+  "uborka-snega-janakkala": "Elderly couple needed regular, reliable snow clearing for the whole winter season.",
+  "melkij-remont-riihimaki": "New apartment — list of 6 tasks: TV mount, shelves, curtain rail, mirror, tap, door adjustment.",
+  "uborka-doma-hyvinkaa": "House listed for sale. Thorough clean needed before viewings.",
+  "uborka-dvora-hameenlinna": "Large 800 m² plot, multiple birches and maples. Heavy leaf fall in October.",
+  "demontazh-mebeli-loppi": "Moving from a house — 4-metre kitchen and three large sliding-door wardrobes needed disassembly.",
+};
+
 export default function EnCasesPage() {
   return (
     <>
@@ -69,11 +82,11 @@ export default function EnCasesPage() {
                     <span className="tag text-xs shrink-0">{c.city}</span>
                   </div>
                   <p className="text-xs text-gray-500 leading-relaxed mb-3">
-                    {c.ru.task.slice(0, 100)}...
+                    {(enDescriptions[c.slug] || c.ru.task).slice(0, 100)}...
                   </p>
                   <div className="flex gap-4 text-xs text-gray-400 pt-2 border-t border-gray-100">
-                    <span>{c.ru.duration}</span>
-                    <span>{c.ru.workers} person{Number(c.ru.workers) > 1 ? "s" : ""}</span>
+                    <span>{c.en?.duration || c.ru.duration}</span>
+                    <span>{c.ru.workers} {Number(c.ru.workers) > 1 ? "people" : "person"}</span>
                   </div>
                 </Link>
               );
