@@ -144,6 +144,13 @@ export const services: Service[] = [
       h1: "Professional Movers in Finland — We Carry, You Direct",
       intro:
         "PalveMax provides professional moving help for homes and offices across the Riihimäki–Hämeenlinna region. One call, and we handle the heavy work.",
+      whatWeOffer: [
+        "Carrying heavy furniture — sofas, wardrobes, appliances",
+        "Working without an elevator — any floor",
+        "Protecting furniture during the move",
+        "Arranging items in the new location",
+        "Packing small items on request",
+      ],
     },
   },
   {
@@ -247,6 +254,13 @@ export const services: Service[] = [
       h1: "Moving Service in Finland — You Move, We Work",
       intro:
         "PalveMax handles your entire move — from packing to placing the last piece of furniture in your new home.",
+      whatWeOffer: [
+        "Full moving service from packing to unpacking",
+        "Loading and unloading",
+        "Furniture disassembly before and reassembly after",
+        "Working with a rental van — yours or we help find one",
+        "Packing materials — boxes, tape, protective covers",
+      ],
     },
   },
   {
@@ -350,6 +364,13 @@ export const services: Service[] = [
       h1: "Furniture Assembly in Finland — We Read the Instructions So You Don't Have To",
       intro:
         "PalveMax assembles any furniture brand — quickly, correctly, without the Sunday afternoon arguments.",
+      whatWeOffer: [
+        "IKEA PAX, BILLY, KALLAX and all other ranges",
+        "Jysk, BoConcept, Sotka, Asko — any brand",
+        "Door hanging and hinge adjustment",
+        "Wall fixing for safety",
+        "Packaging sorted and cleared",
+      ],
     },
   },
   {
@@ -441,6 +462,13 @@ export const services: Service[] = [
       h1: "Furniture Disassembly in Finland — Parts Labelled, Nothing Lost",
       intro:
         "PalveMax disassembles furniture carefully before your move, labelling every part so reassembly is straightforward.",
+      whatWeOffer: [
+        "Furniture disassembly for moving or replacement",
+        "All parts labelled for reassembly",
+        "Fixings sorted into labelled bags",
+        "Kitchen unit disassembly",
+        "Old furniture removed on request",
+      ],
     },
   },
   {
@@ -540,6 +568,13 @@ export const services: Service[] = [
       h1: "Apartment Cleaning in Finland — Not 'Kind of Clean', Actually Clean",
       intro:
         "PalveMax cleans apartments properly — with Finnish eco-friendly products, our own equipment, and a system that doesn't skip the corners.",
+      whatWeOffer: [
+        "End-of-tenancy cleaning when moving out",
+        "General cleaning from kitchen to bathroom",
+        "Window cleaning inside",
+        "We bring our own supplies",
+        "Regular cleaning weekly or fortnightly",
+      ],
     },
   },
   {
@@ -635,6 +670,13 @@ export const services: Service[] = [
       h1: "House Cleaning in Finland — Square Metres Are Not a Problem",
       intro:
         "PalveMax cleans private homes of any size — including sauna, terrace, and outbuildings.",
+      whatWeOffer: [
+        "Large house cleaning — 100-200+ square metres",
+        "Sauna — benches, floor, walls, heater exterior",
+        "All rooms — bedrooms, living room, kitchen, bathrooms",
+        "Two cleaners for bigger properties",
+        "Eco-friendly cleaning products",
+      ],
     },
   },
   {
@@ -821,6 +863,13 @@ export const services: Service[] = [
       h1: "Yard Cleaning in Finland — We Handle What Autumn Leaves Behind",
       intro:
         "PalveMax cleans yards in spring and autumn — leaves, branches, winter sand — so your property looks cared for all year.",
+      whatWeOffer: [
+        "Leaf collection in autumn — all tree types",
+        "Gritting sand removal in spring",
+        "Paths and walkways cleared",
+        "Branch collection after storms",
+        "Compost bags or removal — as agreed",
+      ],
     },
   },
   {
@@ -916,6 +965,13 @@ export const services: Service[] = [
       h1: "Snow Removal in Finland — Snowfall at Night, Clear Path by 8 AM",
       intro:
         "PalveMax monitors the forecast and clears your paths after every snowfall — no need to call each time.",
+      whatWeOffer: [
+        "Snow clearing after every snowfall",
+        "Entrances, driveways, walkways",
+        "Gritting or anti-ice treatment",
+        "Priority morning service before 8 AM",
+        "Seasonal contract for the whole winter",
+      ],
     },
   },
   {
@@ -1011,6 +1067,13 @@ export const services: Service[] = [
       h1: "Handyman in Finland — Your Year's To-Do List, Done in One Visit",
       intro:
         "PalveMax handles all minor repairs and installations in one visit — bring your list, we bring the tools.",
+      whatWeOffer: [
+        "TV and picture mounting on walls",
+        "Shelves, rails and cabinet installation",
+        "Door and window adjustment",
+        "Tap replacement and minor plumbing fixes",
+        "Everything on your list — one visit, one invoice",
+      ],
     },
   },
 ];
