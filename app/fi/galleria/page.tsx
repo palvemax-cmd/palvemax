@@ -65,7 +65,7 @@ export default function FiGalleryPage() {
 
           <p className="text-center text-sm text-gray-400 mt-8">
             Lisää kuvia{" "}
-            <a href="https://wa.me/358414728489" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/358449285010" target="_blank" rel="noopener noreferrer"
               className="underline" style={{ color: "var(--orange)" }}>WhatsAppissa</a>.
           </p>
         </div>

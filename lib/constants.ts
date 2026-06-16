@@ -1,8 +1,8 @@
 // ─── COMPANY INFO ───────────────────────────────────────────────────────────
 // Обновить номер: изменить PHONE_DISPLAY и PHONE_RAW
-export const PHONE_DISPLAY = "+358 41 472 8489";
-export const PHONE_RAW = "+358414728489";
-export const WHATSAPP_NUMBER = "358414728489";
+export const PHONE_DISPLAY = "+358 44 928 5010";
+export const PHONE_RAW = "+358449285010";
+export const WHATSAPP_NUMBER = "358449285010";
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const EMAIL = "info@palvemax.fi";
 export const COMPANY_NAME = "PalveMax Oy";

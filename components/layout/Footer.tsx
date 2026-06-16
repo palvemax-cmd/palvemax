@@ -147,6 +147,13 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-max px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs opacity-50">
           <p>© {new Date().getFullYear()} PalveMax Oy · Y-tunnus {BUSINESS_ID} · {t.footer.rights}</p>
+          <p className="text-xs opacity-30 mt-1">
+            Verkkosivusto:{" "}
+            <a href="https://profitsite.eu" target="_blank" rel="noopener noreferrer"
+              className="hover:opacity-60 transition-opacity">
+              ProfitSite.eu
+            </a>
+          </p>
           <div className="flex items-center gap-4">
             <Link href={`/${lang}/${r.privacy}`} className="hover:opacity-80">{t.footer.privacy}</Link>
             <Link href={`/${lang}/${r.cookies}`} className="hover:opacity-80">{t.footer.cookies}</Link>

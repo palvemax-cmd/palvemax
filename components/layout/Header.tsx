@@ -103,18 +103,8 @@ export default function Header() {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center justify-center py-3 border-t border-gray-100 mb-3">
+          <div className="flex items-center justify-center py-3 border-t border-gray-100">
             <LangSwitcher />
-          </div>
-          <div className="flex flex-col gap-3">
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer"
-              className="btn-whatsapp justify-center py-3">
-              <WaIcon />WhatsApp
-            </a>
-            <Link href={`/${lang}#forma`} className="btn-primary justify-center py-3"
-              onClick={() => setMenuOpen(false)}>
-              {t.header.cta}
-            </Link>
           </div>
         </div>
       )}
