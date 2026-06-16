@@ -48,6 +48,8 @@ const routeMap: Record<string, Record<string, string>> = {
   // cookies
   "cookie-policy": { fi: "evasteet",    en: "cookie-policy" },
   "evasteet":      { ru: "cookie-policy", en: "cookie-policy" },
+  // EN-specific routes mapping back
+  "seasonal-packages": { ru: "sezonnyie-pakety", fi: "kausipaketit" },
 };
 
 function translatePath(segments: string[], fromLang: string, toLang: string): string {

@@ -7,7 +7,7 @@ import CookieBanner from "@/components/ui/CookieBanner";
 export const metadata: Metadata = {
   alternates: {
     canonical: "https://palvemax.fi/en",
-    languages: { ru: "https://palvemax.fi/ru", fi: "https://palvemax.fi/fi", en: "https://palvemax.fi/en" },
+    languages: { fi: "https://palvemax.fi/fi", ru: "https://palvemax.fi/ru", en: "https://palvemax.fi/en" },
   },
 };
 
