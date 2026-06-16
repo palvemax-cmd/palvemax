@@ -126,7 +126,6 @@ export const services: Service[] = [
       h1: "Muuttomiehet Suomessa — me kannamme, sinä osoitat",
       intro:
         "Eräs asiakas Riihimäeltä pyysi meitä kantamaan sohvan neljännestä kerroksesta ilman hissiä. Hän ei tiennyt painoa. Otimme kaksi miestä — sohva painoi 94 kg. Homma hoitui 25 minuutissa.\n\nPalveMax Oy:n kantomiehet hoitavat tehtävät, joita useimmat ihmiset lykkäävät \"johonkin päivään\" — ja se päivä venyy kuukausiksi. Tilaat kaksi miestä, ja kahdessa tunnissa asunto näyttää erilaiselta.",
-      ,
       whatWeOffer: [
         "Raskaiden huonekalujen kantaminen - sohat, kaapit, kodinkoneet",
         "Tyoskentely ilman hissia - mista kerroksesta tahansa",
@@ -230,7 +229,6 @@ export const services: Service[] = [
       h1: "Muuttopalvelu — sinä muutat, me teemme töitä",
       intro:
         "Yleisin kysymys ennen muuttoa: \"Hoidammeko itse?\" Yleensä ei. Kahden tai kolmen huoneen asunnon muutto Riihimäellä vie omin voimin koko päivän — hermoja, riitoja ja viikon selkäkipuja.\n\nMeidän kanssamme — 3–4 tuntia, ja jo juo teetä uudessa asunnossa, kun me kasaamme viimeistä kaappia.",
-      ,
       whatWeOffer: [
         "Avaimet kateen -muutto pakkauksesta purkuun",
         "Lastaus ja purkaminen",
@@ -334,7 +332,6 @@ export const services: Service[] = [
       h1: "Huonekalujen kokoaminen — me luemme ohjeet puolestasi",
       intro:
         "PAX-kaapin ohje on 84 sivua ja 47 erilaista kiinnikettä. Eräs asiakas Hyvinkäältä käytti puolitoista viikonloppua ja kolme riitaa vaimonsa kanssa. Sitten hän soitti meille.\n\nPalveMax Oy:n asentaja kasaa PAX:in kahdessa tunnissa, ovien ripustus ja saranoiden säätö mukaan lukien. Koska hän tekee sen joka viikko.",
-      ,
       whatWeOffer: [
         "IKEA PAX, BILLY, KALLAX ja kaikki muut sarjat",
         "Jysk, BoConcept, Sotka, Asko - mika tahansa merkki",
@@ -426,7 +423,6 @@ export const services: Service[] = [
       h1: "Huonekalujen purku — merkitsemme osat, et menetä ruuveja",
       intro:
         "Kaksi metriä pitkä kaappi ei mahdu 80 cm ovesta — se on fysiikkaa. Siksi ennen muuttoa se on purettava. Ikävin asia tässä on se, että joku ruuvi katoaa tai sivupaneeli naarmuuntuu kömpelössä liikkeessä.\n\nMerkitsemme jokaisen osan, kiinnikkeet laitetaan merkittyihin pusseihin. Uudessa paikassa asentaja kasaa kaiken takaisin — ja kaappi seisoo yhtä tukevasti kuin ennenkin.",
-      ,
       whatWeOffer: [
         "Huonekalujen purku siirtoa tai vaihtoa varten",
         "Osien merkitseminen kokoamista varten",
@@ -526,7 +522,6 @@ export const services: Service[] = [
       h1: "Asunnon siivous — ei 'melkein puhdas', vaan oikeasti puhdas",
       intro:
         "On siivouksia, joiden jälkeen tuntuu puhtaalta. Ja on siivouksia, joiden jälkeen huomaat, että ikkuna päästää 30 % enemmän valoa.\n\nPalveMax Oy:n siivoustiimi siivoaa järjestelmällisesti: ensin pöly, sitten pinnat, sitten lattiat. Suomalainen, ympäristöystävällinen pesuaine ilman pistävää hajua. Tuomme kaiken mukanamme — sinun ei tarvitse valmistella mitään.",
-      ,
       whatWeOffer: [
         "Loppusiivous vuokra-asunnosta muuttaessa",
         "Yleissiivous keittiosta kylpyhuoneeseen",
@@ -622,7 +617,6 @@ export const services: Service[] = [
       h1: "Talonsiivous — suuri pinta-ala ei ole ongelma",
       intro:
         "Omakotitalo on aivan eri mittakaava. Ei yksi kylpyhuone, vaan kaksi. Ei 60 neliötä, vaan 140. Plus sauna, terassi ja eteinen puutarhan mudalla.\n\nIsoihin taloihin otamme kaksi siivoojaa — työ etenee rinnakkain, ja lounaaseen mennessä kaikki on valmista.",
-      ,
       whatWeOffer: [
         "Suurten talojen siivous - 100-200+ neliometria",
         "Sauna - lauteet, lattia, seinat, kiuas ulkoa",
@@ -718,7 +712,6 @@ export const services: Service[] = [
       h1: "Ruohonleikkaus — siisti piha ilman omaa työtä",
       intro:
         "Suomen kesä on nopea. Toukokuun lopusta heinäkuun puoliväliin ruoho kasvaa nopeammin kuin ehtii ajatella niittämisestä. Jos kahden viikon paukon pitää — se ei ole enää nurmikko, se on niitty.\n\nTeemme säännöllistä aikataulua: joka 10–14. päivä. Tulemme, niitämme, käsittelemme reunat trimmillä, siivoamme ruohon. Tulet kotiin — kaikki on siistiä.",
-      ,
       whatWeOffer: [
         "Saannollinen nurmikon leikkaus 1-2 viikon valein",
         "Reunojen trimmaus - siistit reunat kaikkialla",
@@ -810,7 +803,6 @@ export const services: Service[] = [
       h1: "Pihanhoito — lehdet häviävät, piha kukkii",
       intro:
         "Syksyllä Suomessa lehdet putoavat nopeasti ja paljon. Yhden tuulisen lokakuun päivän jälkeen 600 neliömetrin tontilla voi olla 15–20 cm paksu lehtikerros. Haravoimalla — puoli päivää. Tiimillemme — 1,5–2 tuntia.\n\nKeväällä toisenlainen tilanne: talvihiekoituksen hiekka, katkenneet oksat, roska. Hoidamme sekin.",
-      ,
       whatWeOffer: [
         "Lehtien keruu syksylla - koivu, vaahtera, muut",
         "Hiekoitushiekan poisto kevaalla",
@@ -906,7 +898,6 @@ export const services: Service[] = [
       h1: "Lumityöt — lumisade yöllä, tie auki aamulla",
       intro:
         "Tammikuussa Riihimäellä on 15–20 lumisadetta. Jokaisen jälkeen pitää aurata sisäänkäynti, jalkakäytävä, kuisti. Lapiolla — 40 minuuttia ja kipeä selkä. Lumilingolla — 10 minuuttia, mutta se pitää omistaa, säilyttää ja huoltaa.\n\nTai soitat kerran ja et mieti asiaa koko talven. Seuraamme säätiedotuksia ja tulemme itse — sinun ei tarvitse soittaa joka kerta.",
-      ,
       whatWeOffer: [
         "Lumien auraus jokaisen lumisateen jalkeen",
         "Sisaankaynnit, ajotiet, jalkakaytavat",
@@ -1002,7 +993,6 @@ export const services: Service[] = [
       h1: "Pienet remontit — vuoden tehtävälista kiinni yhdellä käynnillä",
       intro:
         "Useimmilla ihmisillä on lista 5–10 pienestä tehtävästä, joita lykätään kuukausien ajan. Ovi narisee. Pitäisi ripustaa peili. Hana vuotaa. Pitäisi kiinnittää verhotanko.\n\nJokainen tehtävä vie itsessään 20–40 minuuttia. Kokoa lista — asentaja tulee, hoitaa kaiken 2–3 tunnissa. Maksat kerran.",
-      ,
       whatWeOffer: [
         "Television ja taulujen kiinnitys seinaan",
         "Hyllyjen, tankojen ja kaapistojen asennus",
