@@ -12,263 +12,230 @@ export interface FiBlogPost {
 export const fiBlogPosts: FiBlogPost[] = [
   {
     slug: "muutto-suomessa",
-    title: "Muutto Suomessa: mitÃ¤ pitÃ¤Ã¤ tietÃ¤Ã¤ etukÃ¤teen",
-    seoTitle: "Muutto Suomessa â kÃ¤ytÃ¤nnÃ¶n opas | PalveMax",
-    seoDescription: "MitÃ¤ kannattaa tietÃ¤Ã¤ ennen muuttoa Suomessa: ajankohta, loppusiivous, hissin varaaminen. Ilman turhia neuvoja.",
+    title: "Muutto Suomessa: mita pitaa tietaa etukateena",
+    seoTitle: "Muutto Suomessa - kaytannon opas | PalveMax",
+    seoDescription: "Mita kannattaa tietaa ennen muuttoa Suomessa: ajankohta, loppusiivous, hissin varaaminen. Ilman turhia neuvoja.",
     date: "2024-10-01",
     category: "muutto",
     image: "/images/blog/blog-pereezd.webp",
-    content: `## Muutto kannattaa ajoittaa oikein
+    content: `Muutto Suomessa ei ole vain tavaroiden siirtamista paikasta toiseen. On asioita, jotka kannattaa tietaa etukateena - ne saastaa aikaa, hermoja ja rahaa.
 
-Yleisin virhe muutossa on kuukauden loppu. Suurin osa vuokrasopimuksista Suomessa pÃ¤Ã¤ttyy kuukauden viimeisenÃ¤ pÃ¤ivÃ¤nÃ¤ â eli kaikki muuttavat samanaikaisesti. Muuttomiehet ovat varattuja, autot loppu, hissit blokattu aamusta iltaan.
+## Muutto kannattaa ajoittaa oikein
 
-Jos muuttaa kuukauden lopussa â etsi apua vÃ¤hintÃ¤Ã¤n 2 viikkoa etukÃ¤teen.
+Yleisin virhe muutossa on kuukauden loppu. Suurin osa vuokrasopimuksista Suomessa paattyy kuukauden viimaisena paivana. Kaikki muuttavat samanaikaisesti - muuttomiehet ovat varattuja, autot loppu.
 
-## MitÃ¤ pitÃ¤Ã¤ tehdÃ¤ ennen muuttopÃ¤ivÃ¤Ã¤
+Jos muuttaa kuukauden lopussa - etsi apua vahintaan 2 viikkoa etukateena. Muuna aikana 1-2 paivaa yleensa riittaa.
 
-**Ilmoita vuokranantajalle.** Suomen lain mukaan â kuukautta ennen muuttoa, ellei sopimuksessa toisin sovita. MyÃ¶hÃ¤styminen tarkoittaa ylimÃ¤Ã¤rÃ¤isen kuukauden vuokraa.
+## Mita pitaa tehda ennen muuttopaivaa
 
-**Tilaa loppusiivous tai tee itse.** Suomalaiset vuokranantajat tarkistavat asunnon tarkasti. Ei siivousta â ei vakuutta takaisin. Kolmen tunnin ammattilaissiivouksen hinta on halvempi kuin vakuuden menetys.
+**Ilmoita vuokranantajalle.** Suomen lain mukaan - kuukautta ennen muuttoa. Myohastyminen tarkoittaa ylimaaraisen kuukauden vuokraa.
 
-**SelvitÃ¤ hissistÃ¤ etukÃ¤teen.** Monissa taloissa hissi pitÃ¤Ã¤ varata isÃ¤nnÃ¶itsijÃ¤ltÃ¤. Ei varausta â kannetaan portaat.
+**Loppusiivous.** Suomalaiset vuokranantajat tarkistavat asunnon tarkasti. Ei siivousta - ei vakuutta takaisin. Kolmen tunnin ammattilaissiivouksen hinta on halvempi kuin vakuuden menetys.
 
-**Mittaa oviaukot.** Erityisesti vanhoissa 1960â70-luvun suomalaisissa taloissa. Ovet voivat olla kapeita â 80 cm. 95 cm leveÃ¤ sohva ei mahdu lÃ¤pi. Se tarkoittaa purkamista tai erikoisnostoa parvekkeelta.
+**Selvita hissista etukateena.** Monissa taloissa hissi pitaa varata isannoisijalta. Ei varausta - kannetaan portaat.
 
-## MitÃ¤ tehdÃ¤ IKEA-kalusteille
-
-Suurin osa asunnoista RiihimÃ¤ellÃ¤ ja HyvinkÃ¤Ã¤llÃ¤ on kalustettu IKEAlla â sitÃ¤ on kaikkialla. HyvÃ¤ uutinen: helppo purkaa ja koota. Huono uutinen: kiireen keskellÃ¤ kadonnut ruuvi tai porattu kierre tekevÃ¤t kaapista epÃ¤vakaan.
-
-Vinkki: pura kalusteet muuttopÃ¤ivÃ¤Ã¤ edeltÃ¤vÃ¤nÃ¤ iltana rauhassa, ei kaaosmaisessa muuttopÃ¤ivÃ¤ssÃ¤.
+**Mittaa oviaukot.** Erityisesti vanhoissa 1960-70-luvun suomalaisissa taloissa. Ovet voivat olla kapeita - 80 cm. 95 cm leveaa sofahaa ei mahdu lapin.
 
 ## Milloin kannattaa palkata muuttomiehet
 
-Jos asunto on kaksio tai suurempi â kaksi muuttoammattilaista on kannattavampaa kuin kutsua kavereit. Syy yksinkertainen: kaverit auttavat kÃ¶mpelÃ¶sti, pitkillÃ¤ tauoilla. Ammattilaiset tekevÃ¤t ilman taukoja, tietÃ¤vÃ¤t miten kantaa raskaita esineitÃ¤ naarmuuttamatta seiniÃ¤.
+Jos asunto on kaksio tai suurempi - kaksi muuttoammattilaista on kannattavampaa kuin kutsua kavereita. Kaverit auttavat kompeloesti, pitkilla tauoilla. Ammattilaiset tekevat ilman taukoja, tietavat miten kantaa raskaita esineitaa naarmuuttamatta seinia.
 
-Kahdessa-kolmessa tunnissa tavallinen kaksio on muutettu. Itse kaveriporukalla â koko pÃ¤ivÃ¤ ja puoli seuraavaakin.
+Kahdessa-kolmessa tunnissa tavallinen kaksio on muutettu. Itse kaverporukalla - koko paiva.
 
 ---
 
-JÃ¤tÃ¤ pyyntÃ¶ sivustolla tai kirjoita WhatsAppissa â vastaamme tunnin sisÃ¤llÃ¤.`,
+Jata pyynto sivustolla tai kirjoita WhatsAppissa - vastaamme tunnin sisalla.`,
   },
   {
     slug: "loppusiivous-opas",
-    title: "Loppusiivous: mitÃ¤ se sisÃ¤ltÃ¤Ã¤ ja kannattaako se tehdÃ¤ itse",
-    seoTitle: "Loppusiivous Suomessa â opas | PalveMax",
-    seoDescription: "Kaikki loppusiivouksesta: mitÃ¤ vuokranantaja tarkastaa, mitkÃ¤ kohdat usein unohdetaan, kannattaako tehdÃ¤ itse vai tilata ammattilainen.",
+    title: "Loppusiivous: mita se sisaltaa ja kannattaako tehda itse",
+    seoTitle: "Loppusiivous Suomessa - opas | PalveMax",
+    seoDescription: "Kaikki loppusiivouksesta: mita vuokranantaja tarkastaa, mitka kohdat usein unohdetaan, kannattaako tehda itse.",
     date: "2024-09-15",
     category: "siivous",
     image: "/images/blog/blog-loppusiivous.webp",
-    content: `## MitÃ¤ loppusiivous tarkoittaa
+    content: `Loppusiivous on pakollinen useimpien vuokrasopimusten ehto Suomessa. Ei tehty - vuokranantaja vahentaa siivouskustannukset vakuudesta.
 
-Loppusiivous on loppuseivous vuokra-asunnosta poismuuton yhteydessÃ¤. Se on useimpien vuokrasopimusten pakollinen ehto Suomessa. Ei tehty â vuokranantaja vÃ¤hentÃ¤Ã¤ siivouskustannukset vakuudesta, joskus lisÃ¤maksulla.
+## Mita suomalainen vuokranantaja tarkastaa
 
-## MitÃ¤ suomalainen vuokranantaja tarkastaa
+**Keittio.** Liesi ja uuni - sisalta. Ei vain ulkoa pyyhitty, vaan sisalta. Rasva uunin alaosassa on huomautus. Liesituuletin ja suodattimet. Jaakaappi sisalta ja ulkoa. Kaapit sisalta.
 
-Lista on vakiomuotoinen mutta yksityiskohtainen:
+**Kylpyhuone.** Kaakelit - erityisesti nurkissa. Home silikonitiivisteissa on erillinen kohta. Wc - reunan alta.
 
-**KeittiÃ¶.** Liesi ja uuni â sisÃ¤ltÃ¤. Ei vain ulkoa pyyhitty, vaan sisÃ¤ltÃ¤. Rasva uunin alaosassa â se on huomautus. Liesituuletin ja suodattimet. JÃ¤Ã¤kaappi â sisÃ¤ltÃ¤ ja ulkoa, mukaan lukien pohjapannu. Kaapit â sisÃ¤ltÃ¤ ja ulkoa.
+**Lattiat.** Sohvan alta ja sangyn alta - kylla, sinnekin katsotaan.
 
-**Kylpyhuone.** Kaakelit â erityisesti nurkissa ja wc:n takana. Home silikonitiivisteissÃ¤ â se on erillinen kohta. Lavuaari, peili, hyllyt. Wc â reunan alta.
+**Ikkunat.** Sisalta. Joskus myos ulkoa alimmissa kerroksissa.
 
-**Lattiat.** Sohvan alta ja sÃ¤ngyn alta â kyllÃ¤, sinnekin katsotaan. Listat.
+**Parveke.** Lattia, kaide, seinat.
 
-**Ikkunat.** SisÃ¤ltÃ¤. Joskus myÃ¶s ulkoa alimmissa kerroksissa.
+## Mita useimmiten unohdetaan
 
-**Parveke.** Lattia, kaide, seinÃ¤t.
+Nelja paikkaa, jotka lahes aina jaavat:
 
-## MitÃ¤ useimmiten unohdetaan
-
-Kokemusten perusteella neljÃ¤ paikkaa, jotka lÃ¤hes aina jÃ¤Ã¤vÃ¤t:
-
-1. JÃ¤Ã¤kaapin ja kaappien pÃ¤Ã¤llinen â pÃ¶ly kertyy sinne vuosia
-2. Uunin sisÃ¤osa â erityisesti alapannu
-3. Kylpyhuoneen kulmalistat â erityisesti kylpyhuoneessa
-4. Ilmanvaihtoristikot â tÃ¤yttyvÃ¤t pÃ¶lyllÃ¤
+1. Jaakapin ja kaappien paallinen - poly kertyy sinne vuosia
+2. Uunin sisaosa - erityisesti alapannu
+3. Kylpyhuoneen kulmalistat
+4. Ilmanvaihtoristikot
 
 ## Itse vai ammattilainen?
 
-Riippuu tilanteesta. Jos asunto on pieni â yksiÃ¶, asunut siististi â voi tehdÃ¤ itse. Varaa 3â4 tuntia, kÃ¤y lista jÃ¤rjestelmÃ¤llisesti lÃ¤pi.
+Jos asunto on pieni ja asunut siististi - voi tehda itse. Varaa 3-4 tuntia.
 
-Jos asunto on suuri tai on asunut pitkÃ¤Ã¤n tai ei ole aikaa â tilaa ammattilainen. Kolmen tunnin ammattilaissiivouksen hinta on halvempi kuin vakuuden menetys tai riita vuokranantajan kanssa.
+Jos asunto on suuri tai asunut pitkaan - tilaa ammattilainen. Kolmen tunnin ammattilaissiivouksen hinta on halvempi kuin vakuuden menetys.
 
 ---
 
-JÃ¤tÃ¤ pyyntÃ¶ sivustolla tai kirjoita WhatsAppissa.`,
+Jata pyynto sivustolla tai kirjoita WhatsAppissa.`,
   },
   {
     slug: "lumityot-suomessa",
-    title: "LumityÃ¶t Suomessa: kenen vastuulla ja miten jÃ¤rjestÃ¤Ã¤",
-    seoTitle: "LumityÃ¶t Suomessa â kuka on vastuussa | PalveMax",
-    seoDescription: "Kuka on lain mukaan velvollinen auraamaan Suomessa? Miten tilata kausipalvelu? SelvitÃ¤mme rehellisesti.",
+    title: "Lumityot Suomessa: kenen vastuulla ja miten jarjestaa",
+    seoTitle: "Lumityot Suomessa - kuka on vastuussa | PalveMax",
+    seoDescription: "Kuka on lain mukaan velvollinen auraamaan Suomessa? Miten tilata kausipalvelu? Selviamme rehellisesti.",
     date: "2024-11-20",
-    category: "lumityÃ¶t",
+    category: "lumityot",
     image: "/images/blog/blog-sneg.webp",
-    content: `## Kuka on lain mukaan vastuussa
+    content: `Tammikuussa Riihimaella on keskimaarin 15-20 lumisadetta. Jokaisen jalkeen pitaa aurata. Tama ei ole suositus - se on lain vaatimus.
 
-Tammikuussa RiihimÃ¤ellÃ¤ on keskimÃ¤Ã¤rin 15â20 lumisadetta. Jokaisen jÃ¤lkeen pitÃ¤Ã¤ aurata. TÃ¤mÃ¤ ei ole suositus â se on lain vaatimus.
+## Kuka on lain mukaan vastuussa
 
-Suomessa vastuu lumitÃ¶istÃ¤ talon edessÃ¤ olevalla jalkakÃ¤ytÃ¤vÃ¤llÃ¤ kuuluu kiinteistÃ¶n omistajalle tai haltijalle. TÃ¤mÃ¤ on kirjattu useimpien Kanta-HÃ¤meen kuntien paikallissÃ¤Ã¤nnÃ¶ksiin.
+Suomessa vastuu lumitoista talon edessa olevalla jalkakaytavalla kuuluu kiinteiston omistajalle tai haltijalle. Jos jalkakaytava on liukas ja joku kaatuu - vastuu on omistajalla.
 
-Jos jalkakÃ¤ytÃ¤vÃ¤ on liukas ja joku kaatuu â vastuu on omistajalla.
-
-Vuokralaisille: tarkista sopimus. Usein lumityÃ¶t ovat vuokranantajan vastuulla. Jos ei ole kirjattu â selvitÃ¤.
+Vuokralaisille: tarkista sopimus. Usein lumityot ovat vuokranantajan vastuulla.
 
 ## Kolme vaihtoehtoa
 
-**Itse.** Lapio â halvasti, mutta 30â40 minuuttia jokaisen lumisateen jÃ¤lkeen. Kolmen perÃ¤kkÃ¤isen myrskyn jÃ¤lkeen se on jo 2 tuntia tyÃ¶tÃ¤ kylmÃ¤ssÃ¤.
+**Itse.** Lapio - halvasti, mutta 30-40 minuuttia jokaisen lumisateen jalkeen. Kolmen perakkaisen myrskyn jalkeen se on jo 2 tuntia tyota kylmassa.
 
-**Lumilinko.** HyvÃ¤ maksaa 600â1500 â¬, plus huolto ja sÃ¤ilytystila. Kannattaa vain erittÃ¤in suurelle alueelle tai useammalle kiinteistÃ¶lle.
+**Lumilinko.** Hyva maksaa 600-1500 euroa, plus huolto ja sailytystila.
 
-**Kausipalvelusopimus.** Yksi puhelu marraskuussa â eikÃ¤ koko talven tarvitse miettiÃ¤. Seuraamme sÃ¤Ã¤ennustetta ja tulemme itse.
+**Kausipalvelusopimus.** Yksi puhelu marraskuussa - eika koko talven tarvitse miettiaa. Seuraamme saaennustetta ja tulemme itse.
 
-## Miksi kausipalvelu on parempi kuin yksittÃ¤inen tilaus
+## Miksi kausipalvelu on parempi
 
-YksittÃ¤inen kÃ¤ynti lumisateen jÃ¤lkeen â kiireellinen. Kovalla lumisateella kaikki soittavat samanaikaisesti. Sopimuksen tehneillÃ¤ on etusija.
+Yksittainen kayynti lumisateen jalkeen - kiireellinen. Kovalla lumisateella kaikki soittavat samanaikaisesti. Sopimuksen tehneilla on etusija.
 
-LisÃ¤ksi sopimuksella hinta on kiinteÃ¤. Ilman sopimusta â saatamme olla varattuja tai kiireellisyyskorotus.
+## Hinnat Riihimaella
 
-## Hinnat RiihimÃ¤ellÃ¤
+Yksittainen kayynti - alkaen 90 euroa, riippuu alueesta.
 
-YksittÃ¤inen kÃ¤ynti â alkaen 90 â¬, riippuu alueesta.
-Kausipalvelusopimus â lasketaan yksilÃ¶llisesti, pinta-alan ja sijainnin mukaan.
-
-Sopimus kannattaa tehdÃ¤ lokakuussaâmarraskuussa, ennen ensimmÃ¤istÃ¤ lunta.`,
+Kausipalvelusopimus - lasketaan yksilollisesti. Sopimus kannattaa tehda lokakuussa-marraskuussa, ennen ensimmaista lunta.`,
   },
   {
     slug: "ruohonleikkaus-kausi",
-    title: "Milloin leikata ruohoa Suomessa: lyhyt vastaus tontin omistajille",
-    seoTitle: "Milloin leikata ruohoa Suomessa â kausikaatio | PalveMax",
-    seoDescription: "Optimaaliset leikkausajat Kanta-HÃ¤meen alueella. Kuinka usein kaudessa ja mitÃ¤ tehdÃ¤ rehevÃ¤llÃ¤ tontilla.",
+    title: "Milloin leikata ruohoa Suomessa",
+    seoTitle: "Milloin leikata ruohoa Suomessa - kausikaatio | PalveMax",
+    seoDescription: "Optimaaliset leikkausajat Kanta-Hameen alueella. Kuinka usein kaudessa ja mita tehda rehevalla tontilla.",
     date: "2024-06-10",
     category: "ruohonleikkaus",
     image: "/images/gallery/gallery-pokos-1.webp",
-    content: `## Kausi Kanta-HÃ¤meen alueella
+    content: `Ensimmainen leikkaus tarvitaan yleensa toukokuun lopussa - kesakuun alussa. Ruoho alkaa kasvaa aktiivisesti lumen sulamisen jalkeen.
 
-EnsimmÃ¤inen leikkaus tarvitaan yleensÃ¤ toukokuun lopussaâkesÃ¤kuun alussa. Ruoho alkaa kasvaa aktiivisesti lumen sulamisen ja ensimmÃ¤isten lÃ¤mpimien pÃ¤ivien jÃ¤lkeen.
+## Kausi Kanta-Hameen alueella
 
-Kasvuhuippu â kesÃ¤kuu ja heinÃ¤kuun alku. Sateisella sÃ¤Ã¤llÃ¤ ruoho kasvaa 5â7 cm viikossa. Jos kaksi viikkoa ohittaa â se on jo vaativa tyÃ¶, ei yllÃ¤pitoleikkaus.
+Kasvuhuippu - kesakuu ja heinakuun alku. Sateisella saalla ruoho kasvaa 5-7 cm viikossa. Jos kaksi viikkoa ohittaa - se on jo vaativa tyo.
 
-KesÃ¤n puolivÃ¤liâloppu â kasvu hidastuu. Elokuu on rauhallisempi.
+Kesaloppupuoli - kasvu hidastuu. Elokuu on rauhallisempi.
 
-Viimeinen leikkaus â syyskuun loppu, joskus lokakuun alku, ennen ensimmÃ¤isiÃ¤ hirmuja. Ruohon pitÃ¤isi mennÃ¤ talveen 5â7 cm korkeudella, ei lyhyempÃ¤nÃ¤.
+Viimeinen leikkaus - syyskuun loppu, joskus lokakuun alku. Ruohon pitaisi mennaa talveen 5-7 cm korkeudella.
 
 ## Kuinka usein leikata
 
-HyvÃ¤lle nurmikkolle: kerran 7â10 pÃ¤ivÃ¤ssÃ¤ kesÃ¤kuussaâheinÃ¤kuussa, kerran 10â14 pÃ¤ivÃ¤ssÃ¤ elokuussaâsyyskuussa.
+Hyvaalle nurmikkolle: kerran 7-10 paivassa kesakuussa-heinakuussa, kerran 10-14 paivassa elokuussa-syyskuussa.
 
-Jos tavoite on vain "ei niitty": kerran kahdessa viikossa riittÃ¤Ã¤ useimmille tonteille.
+Jos tavoite on vain "ei niitty": kerran kahdessa viikossa riittaa useimmille tonteille.
 
-Rehottanut tontti (ei leikattu yli kuukauteen): erillinen asia. Ei voi leikata enemmÃ¤n kuin kolmasosaa kerralla â ruoho "stressaantuu" ja keltaistuu. PitÃ¤Ã¤ tehdÃ¤ useammassa erÃ¤ssÃ¤.
+## Rehottunut tontti
 
-## MitÃ¤ tehdÃ¤ leikatulla ruoholla
+Jos tonttia ei ole leikattu yli kuukauteen - ensimmainen leikkaus kestaa 2-3 kertaa kauemmin. Sanomme hinnan rehellisesti etukateena.
 
-JÃ¤ttÃ¤Ã¤ paikoilleen â hyvÃ¤ksyttÃ¤vÃ¤Ã¤, jos kerros on ohut. Hajoaa, palauttaa ravinteita.
-
-ViedÃ¤ kompostiin â paras vaihtoehto siistille tontille.
-
-Kuljettaa pois â suurella volyymillÃ¤. LisÃ¤Ã¤ tyÃ¶tÃ¤ ja aikaa.
-
-## Rehottanut tontti: parempi sanoa etukÃ¤teen
-
-Jos tonttia ei ole leikattu puolta kautta â ensimmÃ¤inen leikkaus kestÃ¤Ã¤ 2â3 kertaa kauemmin. Ruoho on korkeaa, menee hitaasti. Sanomme hinnan rehellisesti etukÃ¤teen.
-
-SÃ¤Ã¤nnÃ¶llinen yllÃ¤pito on helpompaa ja halvempaa kuin kerran kuussa taistella viidakon kanssa.`,
+Saannollinen yllapito on helpompaa ja halvempaa kuin kerran kuussa taistella viidakon kanssa.`,
   },
   {
     slug: "ikea-kokoaminen-virheet",
-    title: "IKEA-huonekalujen kokoaminen: tyypilliset virheet ja miten vÃ¤lttÃ¤Ã¤ ne",
-    seoTitle: "IKEA-huonekalujen kokoaminen Suomessa â tyypilliset virheet | PalveMax",
-    seoDescription: "Miksi kokoaminen kestÃ¤Ã¤ kaksinkertaisesti arvioitua ja miten yleisimmÃ¤t virheet vÃ¤lttÃ¤Ã¤.",
+    title: "IKEA-huonekalujen kokoaminen: tyypilliset virheet",
+    seoTitle: "IKEA-huonekalujen kokoaminen Suomessa - virheet | PalveMax",
+    seoDescription: "Miksi kokoaminen kestaa kaksinkertaisesti arvioitua ja miten yleisimmat virheet valttaa.",
     date: "2024-08-22",
     category: "huonekalut",
     image: "/images/blog/blog-ikea.webp",
-    content: `## "Kokoomme itse, siinÃ¤hÃ¤n on kuvaohjeet"
+    content: `PAX-kaapin ohje on 84 sivua ja 47 erilaista kiinniketta. Kolmen tunnin paasta, yksi ylimaarainen osa ja ovi joka ei sulkeudu, tarina on toinen.
 
-NÃ¤in ajattelee useimmat. Kolmen tunnin pÃ¤Ã¤stÃ¤, yksi ylimÃ¤Ã¤rÃ¤inen osa ja ovi joka ei sulkeudu, tarina on toinen.
+## Virhe 1: Paneelin vaara puoli
 
-T¤ssÃ¤ mitÃ¤ oikeasti menee pieleen.
+IKEAlla monet paneelit nayttavat samanlaisilta molemmilta puolilta. Mutta paallyste - vain yhdella. Kaannetty kokoamisessa - saat nakyvaaat tulpat vaarassa paikassa.
 
-## Virhe 1: Paneelin vÃ¤Ã¤rÃ¤ puoli
+Ratkaisu: ennen kokoamista levita kaikki paneelit, tarkista tekstuurin suunta.
 
-IKEAlla monet paneelit nÃ¤yttÃ¤vÃ¤t samanlaisilta molemmilta puolilta. Mutta pÃ¤Ã¤llyste â vain yhdellÃ¤. KÃ¤Ã¤nnetty kokoamisessa â saat nÃ¤kyvÃ¤t tulpat vÃ¤Ã¤rÃ¤ssÃ¤ paikassa tai tekstuurin vÃ¤Ã¤rÃ¤Ã¤n suuntaan. Korjata kootusta kaapista on mahdotonta.
+## Virhe 2: Pultit eivat ole kunnolla kiristetty
 
-Ratkaisu: ennen kokoamista levitÃ¤ kaikki paneelit, tarkista tekstuurin suunta.
+IKEAn mukana tuleva kuusiokoloavain on pieni ja epakayteannollinen. Monet kiristaaevat "kasin loppuun asti", mutta se ei riita. Kuukauden paasta kaluste alkaa heilua.
 
-## Virhe 2: Pultit eivÃ¤t ole kunnolla kiristetty
+Ratkaisu: kayata kuusiokoloavainta kahvalla tai akkuporakonetta.
 
-IKEAn mukana tuleva kuusiokoloavain on pieni ja epÃ¤kÃ¤ytÃ¤nnÃ¶llinen. Monet kiristÃ¤vÃ¤t "kÃ¤sin loppuun asti", mutta se ei riitÃ¤. Kuukauden pÃ¤Ã¤stÃ¤ kaluste alkaa heilua.
+## Virhe 3: Kiinnikkeiden lajittelu jaai tekematta
 
-Ratkaisu: kÃ¤ytÃ¤ kuusiokoloavainta kahvalla tai akkuporakonetta sopivalla kÃ¤rjellÃ¤. Pultin pitÃ¤Ã¤ istua tukevasti.
+PAX-kaapissa on 47 erityyppistaa osaa. Jos ei lajittele ryhmiiin alussa, kokoamisen puolivalissa alkaa sekaannus.
 
-## Virhe 3: Kiinnikkeiden lajittelu jÃ¤i tekemÃ¤ttÃ¤
-
-PAX-kaapissa on 47 erityyppistÃ¤ osaa. Jos ei lajittele ryhmiin alussa, kokoamisen puolivÃ¤lissÃ¤ alkaa sekaannus: mikÃ¤ pultti mihin, mitÃ¤ puuttuu.
-
-Ratkaisu: 10 minuuttia lajitteluun alussa sÃ¤Ã¤stÃ¤Ã¤ tunnin sekaannuksen puolivÃ¤lissÃ¤.
+Ratkaisu: 10 minuuttia lajitteluun alussa saastaa tunnin sekaannuksen puolivalissa.
 
 ## Virhe 4: Saranoiden asennus, sitten huomasi vinon
 
-PAX-ovet sÃ¤Ã¤detÃ¤Ã¤n, mutta siihen pitÃ¤Ã¤ tietÃ¤Ã¤, mikÃ¤ kolmesta ruuvista mitÃ¤kin tekee. TietÃ¤mÃ¤ttÃ¶mÃ¤nÃ¤ â tunti tuskaa oven kanssa joka ei tasaa.
+PAX-ovet saadetaan, mutta siihen pitaa tietaa, mika kolmesta ruuvista mitakin tekee.
 
-Ratkaisu: tutustu saranoiden sÃ¤Ã¤tÃ¶Ã¶n ennen ovien asennusta, ei sen jÃ¤lkeen.
+Ratkaisu: tutustu saranoiden saatoon ennen ovien asennusta.
 
 ## Milloin kannattaa kutsua asentaja
 
-Jos sinulla on: enemmÃ¤n kuin kaksi kaappia, keittiÃ¶kalusteet tai peilikaapin ovet â asentajan aika maksaa vÃ¤hemmÃ¤n kuin oma viikonloppu ja hermot.
+Jos sinulla on: enemman kuin kaksi kaappia, keittiokalusteet tai peilikaapin ovet - asentajan aika maksaa vahemman kuin oma viikonloppu ja hermot.
 
-PalveMax Oy:n asentaja kokoaa kolmen osan PAX:in kahdessa tunnissa. Mukaan lukien: purku, lajittelu, kokoaminen, ovien ripustus, saranoiden sÃ¤Ã¤tÃ¶, seinÃ¤kiinnitys. SinÃ¤ hyvÃ¤ksyt valmiin tuloksen.`,
+PalveMax Oy:n asentaja kokoaa kolmen osan PAX:in kahdessa tunnissa, ovet ja seinakiinnitys mukaan lukien.`,
   },
   {
     slug: "kodin-hoito-vuodenajat",
-    title: "Omakotitalon hoito Suomessa: mitÃ¤ tehdÃ¤ vuodenaikojen mukaan",
-    seoTitle: "Omakotitalon hoito Suomessa â vuodenaikakalenteri | PalveMax",
-    seoDescription: "KÃ¤ytÃ¤nnÃ¶n kausikaatio omakotitalon hoitoon: kevÃ¤t, kesÃ¤, syksy, talvi. MitÃ¤ tehdÃ¤ itse ja mitÃ¤ ulkoistaa.",
+    title: "Omakotitalon hoito Suomessa vuodenaikojen mukaan",
+    seoTitle: "Omakotitalon hoito Suomessa - vuodenaikakalenteri | PalveMax",
+    seoDescription: "Kaytannon kausikaatio omakotitalon hoitoon: kevat, kesa, syksy, talvi. Mita tehda itse ja mita ulkoistaa.",
     date: "2024-04-05",
     category: "kodinhoito",
     image: "/images/blog/blog-ukhod-dom.webp",
-    content: `## KevÃ¤t (huhtikuuâtoukokuu)
+    content: `Omakotitalon omistaminen Suomessa on ympaarivuotinen projekti. Joka vuodenajalla omat tehtaavansa.
 
-KevÃ¤Ã¤n pÃ¤Ã¤tehtÃ¤vÃ¤ on talven jÃ¤lkeinen tarkistus ja siivous.
+## Kevat (huhtikuu-toukokuu)
 
-Lumi suli â tarkista katto ja syÃ¶ksytorvet. Talvi rasittaa, ja halkeamat lÃ¶ytyvÃ¤t paremmin ennen sateita.
+Kevaan paatehtava on talven jalkeen tarkistus ja siivous.
 
-Tontti: poista hiekoitushiekka, joka jÃ¤i talvikunnossapidosta. Haravoi koko piiri. TÃ¤mÃ¤ on tÃ¤rkeÃ¤Ã¤ nurmikon kannalta: hiekkakerroksessa alla ruoho kasvaa huonosti.
+Lumi suli - tarkista katto ja syoksytorvet. Talvi rasittaa, ja halkeamat loytyyvat paremmin ennen sateita.
 
-Sauna: talven jÃ¤lkeen hyvÃ¤ tehdÃ¤ perussiivous â lauteet, seinÃ¤t, lattia, kiuas ulkoa.
+Tontti: poista hiekoitushiekka. Haravoi koko piiri. Hiekkakerroksessa alla ruoho kasvaa huonosti.
 
-## KesÃ¤ (kesÃ¤kuuâelokuu)
+Sauna: talven jalkeen hyvaa tehda perussiivous.
 
-KesÃ¤n pÃ¤Ã¤tyÃ¶ on yllÃ¤pitÃ¤Ã¤ tehtyÃ¤.
+## Kesa (kesakuu-elokuu)
 
-Nurmikko: kerran 1â2 viikossa. Jos ei leikkaa â kesÃ¤kuussa ruoho kasvaa nopeasti.
+Nurmikko: kerran 1-2 viikossa. Jos ei leikkaa - kesakuussa ruoho kasvaa nopeasti.
 
-Piha: korjata myrskyn jÃ¤lkeiset oksat, yllÃ¤pitÃ¤Ã¤ polkuja.
+Ikkunat: heinakuu-elokuu - hyva aika pestaa sisalta ja ulkoa.
 
-Ikkunat: heinÃ¤kuuâelokuu â hyvÃ¤ aika pestÃ¤ sisÃ¤ltÃ¤ ja ulkoa.
+## Syksy (syyskuu-lokakuu)
 
-## Syksy (syyskuuâlokakuu)
+Lokakuu - lehtisade. Korjaamisen lykkaamistaa ei suositella: lehtien alla nurmikko ei hengita, kevaalla - keltaisia laikkuja.
 
-Lokakuu â lehtisade. Korjaamisen lykkÃ¤Ã¤mistÃ¤ ei suositella: lehtien alla nurmikko ei hengitÃ¤, kevÃ¤Ã¤llÃ¤ â keltaisia laikkuja.
+Viimeinen leikkaus ennen ensimmaisia pakkasia.
 
-Viimeinen leikkaus â ennen ensimmÃ¤isiÃ¤ pakkasia. Ruohon pitÃ¤isi mennÃ¤ talveen 5â7 cm korkeudella, ei lyhyempÃ¤nÃ¤.
+## Talvi (marraskuu-maaliskuu)
 
-Tarkista putkien lÃ¤mpÃ¶eristys â tÃ¤mÃ¤ on kriittistÃ¤ ennen pakkasia.
+Lumi aurattava heti lumisateen jalkeen - ei kasattava. Puristunut lumi muuttuu jaaaksi.
 
-## Talvi (marraskuuâmaaliskuu)
+Polut hiekoitettava.
 
-Lumi aurattava heti lumisateen jÃ¤lkeen â ei kasattava. Puristunut lumi muuttuu jÃ¤Ã¤ksi, sen poistaminen on vaikeampaa.
+Katto: jos lunta on kertyynyt paksu kerros (30+ cm) - parempi poistaa.
 
-Polut hiekoitettava: Suomessa on tapana kÃ¤yttÃ¤Ã¤ hiekkaa tai erikoisliukkaudentorjunta-aineita.
+## Mita ulkoistaa
 
-Katto: jos lunta on kertynyt paksu kerros (30+ cm) â parempi poistaa, erityisesti vanhat talot joilla pienempi kantavuus.
+Ulkoistaa: saannollinen ruohonleikkaus, lumityot, perussiivous, vaativat tyot.
 
-## MitÃ¤ ulkoistaa
-
-Itse: talon tarkastukset, perustehtÃ¤vÃ¤t, pienet tyÃ¶t.
-
-Ulkoistaa: sÃ¤Ã¤nnÃ¶llinen ruohonleikkaus, lumityÃ¶t, perussiivous, vaativat tyÃ¶t. TÃ¤mÃ¤ on aikaa, jonka kÃ¤ytÃ¤t muuhun.
-
-PalveMax Oy:n vuosisopimus kattaa kaikki vuodenajat â kevÃ¤t, kesÃ¤, syksy, talvi. Yksi sopimus, yksi yhteyshenkilÃ¶.`,
+PalveMax Oy:n vuosisopimus kattaa kaikki vuodenajat. Yksi sopimus, yksi yhteyshenkiloa.`,
   },
 ];
 

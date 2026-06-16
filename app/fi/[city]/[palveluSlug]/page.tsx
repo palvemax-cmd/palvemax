@@ -150,7 +150,7 @@ export default async function FiLocalSeoPage({ params }: Props) {
                   Mitä teemme
                 </h2>
                 <ul className="space-y-2">
-                  {service.ru.whatWeOffer.map((item, i) => (
+                  {(service.fi.whatWeOffer || service.ru.whatWeOffer).map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-gray-700">
                       <svg className="w-4 h-4 shrink-0 mt-0.5" fill="none" stroke="var(--orange)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                         <path d="M5 13l4 4L19 7"/>

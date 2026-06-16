@@ -4,8 +4,8 @@ import ContactForm from "@/components/forms/ContactForm";
 import { packages } from "@/content/packages/packages";
 
 export const metadata: Metadata = {
-  title: "Kausipaketit — PalveMax Oy | Kotitalouspalvelut ympäri vuoden",
-  description: "Kesä-, syksy-, talvi- ja vuosipaketit kotitalouspalveluille. Yksi sopimus koko kaudeksi — ei enää tarvitse soittaa jokaisen lumisateen jälkeen.",
+  title: "Kausipaketit - PalveMax Oy | Kotitalouspalvelut ympari vuoden",
+  description: "Kesa-, syksy-, talvi- ja vuosipaketit kotitalouspalveluille. Yksi sopimus koko kaudeksi.",
   alternates: {
     canonical: "https://palvemax.fi/fi/kausipaketit",
     languages: { ru: "https://palvemax.fi/ru/sezonnyie-pakety", fi: "https://palvemax.fi/fi/kausipaketit", en: "https://palvemax.fi/en/seasonal-packages" },
@@ -19,7 +19,6 @@ const SeasonIcons = {
       <line x1="14" y1="2" x2="14" y2="5"/><line x1="14" y1="23" x2="14" y2="26"/>
       <line x1="2" y1="14" x2="5" y2="14"/><line x1="23" y1="14" x2="26" y2="14"/>
       <line x1="5.5" y1="5.5" x2="7.5" y2="7.5"/><line x1="20.5" y1="20.5" x2="22.5" y2="22.5"/>
-      <line x1="22.5" y1="5.5" x2="20.5" y2="7.5"/><line x1="7.5" y1="20.5" x2="5.5" y2="22.5"/>
     </svg>
   ),
   autumn: () => (
@@ -50,20 +49,6 @@ const seasonStyles = {
   annual: { bg: "#d1fae5", text: "#065f46", border: "#6ee7b7" },
 };
 
-const fiPackageNames = {
-  summer: "Kesäpaketti",
-  autumn: "Syksypaketti",
-  winter: "Talvipaketti",
-  annual: "Vuosihuolto",
-};
-
-const fiPackageTaglines = {
-  summer: "Piha kunnossa toukokuusta elokuuhun",
-  autumn: "Lehdet pois, piha talvikuntoon",
-  winter: "Lumisateen jälkeen tie auki",
-  annual: "Yksi sopimus — piha kunnossa ympäri vuoden",
-};
-
 export default function FiPackagesPage() {
   return (
     <>
@@ -85,7 +70,8 @@ export default function FiPackagesPage() {
             Kausipaketit kotitalouspalveluille
           </h1>
           <p className="text-white/70 leading-relaxed max-w-xl mx-auto">
-            Yksi sopimus kaudeksi — etkä enää mieti ruohonleikkausta, lehtiä tai lunta. Seuraamme itse ja tulemme aikataulun mukaan.
+            Yksi sopimus kaudeksi - et enaa mieti ruohonleikkausta, lehtiaa tai lunta.
+            Seuraamme itse ja tulemme aikataulun mukaan.
           </p>
         </div>
       </section>
@@ -97,7 +83,8 @@ export default function FiPackagesPage() {
               const style = seasonStyles[pkg.season];
               const Icon = SeasonIcons[pkg.season];
               return (
-                <div key={pkg.slug} className="rounded-2xl overflow-hidden border" style={{ borderColor: style.border }}>
+                <div key={pkg.slug} className="rounded-2xl overflow-hidden border"
+                  style={{ borderColor: style.border }}>
                   <div className="px-5 py-4 flex items-center gap-3" style={{ backgroundColor: style.bg }}>
                     <div className="w-10 h-10 rounded-xl flex items-center justify-center"
                       style={{ backgroundColor: "white", color: style.text }}>
@@ -105,15 +92,15 @@ export default function FiPackagesPage() {
                     </div>
                     <div>
                       <div className="font-bold" style={{ fontFamily: "'DM Sans', sans-serif", color: style.text }}>
-                        {fiPackageNames[pkg.season]}
+                        {pkg.fi.name}
                       </div>
                       <div className="text-sm" style={{ color: style.text, opacity: 0.75 }}>
-                        {fiPackageTaglines[pkg.season]}
+                        {pkg.fi.tagline}
                       </div>
                     </div>
                   </div>
                   <div className="p-5 bg-white">
-                    <p className="text-sm text-gray-600 leading-relaxed mb-4">{pkg.fi.includes.join(", ")}.</p>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4">{pkg.fi.description}</p>
                     <ul className="space-y-2 mb-5">
                       {pkg.fi.includes.map((item, i) => (
                         <li key={i} className="flex items-start gap-2.5 text-sm text-gray-700">
@@ -125,8 +112,8 @@ export default function FiPackagesPage() {
                       ))}
                     </ul>
                     <div className="pt-4 border-t border-gray-100">
-                      <p className="text-sm font-medium text-gray-700">{pkg.ru.price}</p>
-                      <p className="text-xs text-gray-400 mt-1">{pkg.ru.note}</p>
+                      <p className="text-sm font-medium text-gray-700 mb-1">{pkg.fi.price}</p>
+                      <p className="text-xs text-gray-400">{pkg.fi.note}</p>
                     </div>
                   </div>
                 </div>
@@ -136,11 +123,12 @@ export default function FiPackagesPage() {
 
           <div className="mt-12 max-w-xl mx-auto">
             <div className="text-center mb-6">
-              <h2 className="text-2xl font-bold"
-                style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--blue-dark)" }}>
-                Pyydä tarjous omalle tontillesi
+              <h2 className="text-2xl font-bold" style={{ fontFamily: "'DM Sans', sans-serif", color: "var(--blue-dark)" }}>
+                Pyydaa tarjous omalle tontillesi
               </h2>
-              <p className="text-gray-500 text-sm mt-2">Hinta riippuu pinta-alasta ja sijainnista. Kuvaile tontti — laskemme.</p>
+              <p className="text-gray-500 text-sm mt-2">
+                Hinta riippuu pinta-alasta ja sijainnista. Kuvaile tontti - lasketaan.
+              </p>
             </div>
             <div className="card">
               <ContactForm compact lang="fi" />
