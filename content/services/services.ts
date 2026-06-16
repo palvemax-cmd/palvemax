@@ -30,6 +30,7 @@ export interface Service {
     seoDescription: string;
     h1: string;
     intro: string;
+    whatWeOffer?: string[];
   };
 }
 
