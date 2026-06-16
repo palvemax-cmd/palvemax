@@ -240,8 +240,8 @@ export default async function FiServicePage({ params }: Props) {
         <div className="container-max text-center">
           <p className="text-sm text-gray-500 mb-3">Tämä sivu muilla kielillä:</p>
           <div className="flex justify-center gap-4">
-            <Link href={`/ru/uslugi/${slug}`} className="btn-secondary text-sm py-2">🇷🇺 По-русски</Link>
-            <Link href={`/en/services/${slug}`} className="btn-secondary text-sm py-2">🇬🇧 In English</Link>
+            <Link href={`/ru/uslugi/${slug}`} className="btn-secondary text-sm py-2">Venäjäksi</Link>
+            <Link href={`/en/services/${slug}`} className="btn-secondary text-sm py-2">Englanniksi</Link>
           </div>
         </div>
       </div>

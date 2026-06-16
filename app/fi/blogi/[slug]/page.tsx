@@ -113,8 +113,8 @@ export default async function FiBlogPostPage({ params }: Props) {
             {/* Language links */}
             <div className="mt-6 pt-6 border-t border-gray-100 flex gap-3">
               <span className="text-sm text-gray-400">Muilla kielillä:</span>
-              <Link href="/ru/blog" className="text-sm underline" style={{ color: "var(--blue)" }}>По-русски</Link>
-              <Link href="/en/blog" className="text-sm underline" style={{ color: "var(--blue)" }}>In English</Link>
+              <Link href="/ru/blog" className="text-sm underline" style={{ color: "var(--blue)" }}>Venäjäksi</Link>
+              <Link href="/en/blog" className="text-sm underline" style={{ color: "var(--blue)" }}>Englanniksi</Link>
             </div>
           </div>
         </div>

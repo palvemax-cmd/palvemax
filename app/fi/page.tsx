@@ -46,7 +46,7 @@ export default function FiHomePage() {
                 <span style={{ color: "#f07a3a" }}>Suomessa</span>
               </h1>
               <p className="text-xl text-white/80 mb-1">Riihimäki · Hyvinkää · Hämeenlinna ja alue</p>
-              <p className="text-white/50 text-sm mb-8">Русский · Suomi · English</p>
+              <p className="text-white/50 text-sm mb-8">Suomi · Русский · English</p>
               <div className="flex flex-wrap gap-2 mb-8">
                 {services.slice(0, 6).map((s) => (
                   <Link key={s.slug} href={`/fi/palvelut/${s.slug}`}
