@@ -85,7 +85,7 @@ export default function EnCasesPage() {
                     {(enDescriptions[c.slug] || c.ru.task).slice(0, 100)}...
                   </p>
                   <div className="flex gap-4 text-xs text-gray-400 pt-2 border-t border-gray-100">
-                    <span>{c.en?.duration || c.ru.duration}</span>
+                    <span>{c.ru.duration}</span>
                     <span>{c.ru.workers} {Number(c.ru.workers) > 1 ? "people" : "person"}</span>
                   </div>
                 </Link>
