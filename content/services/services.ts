@@ -124,8 +124,8 @@ export const services: Service[] = [
         "Luotettavat muuttomiehet Riihimäellä, Hyvinkäällä ja Hämeenlinnassa. Soita nyt — vastaamme tunnin sisällä.",
       h1: "Muuttomiehet Suomessa — me kannamme, sinä osoitat",
       intro:
-        "PalveMax tarjoaa ammattitaitoisia muuttomiehiä koti- ja toimistomuuttoihin koko alueella. Otamme vastuun raskaasta nostamisesta — sinä kerrot, minne tavarat viedään.",
-    },
+        "Eräs asiakas Riihimäeltä pyysi meitä kantamaan sohvan neljännestä kerroksesta ilman hissiä. Hän ei tiennyt painoa. Otimme kaksi miestä — sohva painoi 94 kg. Homma hoitui 25 minuutissa.\n\nPalveMax Oy:n kantomiehet hoitavat tehtävät, joita useimmat ihmiset lykkäävät \"johonkin päivään\" — ja se päivä venyy kuukausiksi. Tilaat kaksi miestä, ja kahdessa tunnissa asunto näyttää erilaiselta.",
+      },
     en: {
       name: "Movers",
       shortDesc: "Professional movers across the region",
@@ -220,8 +220,8 @@ export const services: Service[] = [
         "Kokonaisvaltainen muuttopalvelu Riihimäellä, Hyvinkäällä ja Hämeenlinnassa. Pakkaus, kuljetus, purku, järjestely.",
       h1: "Muuttopalvelu — sinä muutat, me teemme töitä",
       intro:
-        "PalveMax hoitaa koko muuton puolestasi — pakkauksesta huonekalujen järjestelyyn uudessa kodissa.",
-    },
+        "Yleisin kysymys ennen muuttoa: \"Hoidammeko itse?\" Yleensä ei. Kahden tai kolmen huoneen asunnon muutto Riihimäellä vie omin voimin koko päivän — hermoja, riitoja ja viikon selkäkipuja.\n\nMeidän kanssamme — 3–4 tuntia, ja jo juo teetä uudessa asunnossa, kun me kasaamme viimeistä kaappia.",
+      },
     en: {
       name: "Moving Service",
       shortDesc: "Full moving service from packing to setup",
@@ -316,8 +316,8 @@ export const services: Service[] = [
         "Kokoomme IKEA:n, Jyskin ja muiden merkkien huonekalut Riihimäellä ja Hyvinkäällä. Ammattimies tulee omilla työkaluilla.",
       h1: "Huonekalujen kokoaminen — me luemme ohjeet puolestasi",
       intro:
-        "PalveMax kokoaa huonekalusi nopeasti ja huolellisesti — olitpa ostanut IKEA:sta, Jyskistä tai muualta.",
-    },
+        "PAX-kaapin ohje on 84 sivua ja 47 erilaista kiinnikettä. Eräs asiakas Hyvinkäältä käytti puolitoista viikonloppua ja kolme riitaa vaimonsa kanssa. Sitten hän soitti meille.\n\nPalveMax Oy:n asentaja kasaa PAX:in kahdessa tunnissa, ovien ripustus ja saranoiden säätö mukaan lukien. Koska hän tekee sen joka viikko.",
+      },
     en: {
       name: "Furniture Assembly",
       shortDesc: "IKEA, Jysk, any brand — assembled right",
@@ -400,8 +400,8 @@ export const services: Service[] = [
         "Puramme huonekalut siististi ja merkitsemme osat ennen muuttoa. Riihimäki, Hyvinkää, Hämeenlinna.",
       h1: "Huonekalujen purku — merkitsemme osat, et menetä ruuveja",
       intro:
-        "PalveMax purkaa huonekalusi huolellisesti ja merkitsee osat, jotta ne voidaan koota uudelleen uudessa kodissa.",
-    },
+        "Kaksi metriä pitkä kaappi ei mahdu 80 cm ovesta — se on fysiikkaa. Siksi ennen muuttoa se on purettava. Ikävin asia tässä on se, että joku ruuvi katoaa tai sivupaneeli naarmuuntuu kömpelössä liikkeessä.\n\nMerkitsemme jokaisen osan, kiinnikkeet laitetaan merkittyihin pusseihin. Uudessa paikassa asentaja kasaa kaiken takaisin — ja kaappi seisoo yhtä tukevasti kuin ennenkin.",
+      },
     en: {
       name: "Furniture Disassembly",
       shortDesc: "Clean disassembly with labelled parts",
@@ -492,8 +492,8 @@ export const services: Service[] = [
         "Ammattimainen asunnon siivous Riihimäellä, Hyvinkäällä ja Hämeenlinnassa. Loppusiivous, perussiivous, ylläpitosiivous.",
       h1: "Asunnon siivous — ei 'melkein puhdas', vaan oikeasti puhdas",
       intro:
-        "PalveMax siivoaa asuntosi perusteellisesti — omilla pesuaineilla ja välineillä. Sinun ei tarvitse valmistella mitään.",
-    },
+        "On siivouksia, joiden jälkeen tuntuu puhtaalta. Ja on siivouksia, joiden jälkeen huomaat, että ikkuna päästää 30 % enemmän valoa.\n\nPalveMax Oy:n siivoustiimi siivoaa järjestelmällisesti: ensin pöly, sitten pinnat, sitten lattiat. Suomalainen, ympäristöystävällinen pesuaine ilman pistävää hajua. Tuomme kaiken mukanamme — sinun ei tarvitse valmistella mitään.",
+      },
     en: {
       name: "Apartment Cleaning",
       shortDesc: "Deep clean, move-out, regular — we bring everything",
@@ -580,8 +580,8 @@ export const services: Service[] = [
         "Omakotitalon siivous Riihimäellä, Hämeenlinnassa ja Lopella. Perussiivous, sauna, ylläpitosiivous.",
       h1: "Talonsiivous — suuri pinta-ala ei ole ongelma",
       intro:
-        "PalveMax siivoaa omakotitalosi perusteellisesti — myös saunan, terassin ja varastotilan.",
-    },
+        "Omakotitalo on aivan eri mittakaava. Ei yksi kylpyhuone, vaan kaksi. Ei 60 neliötä, vaan 140. Plus sauna, terassi ja eteinen puutarhan mudalla.\n\nIsoihin taloihin otamme kaksi siivoojaa — työ etenee rinnakkain, ja lounaaseen mennessä kaikki on valmista.",
+      },
     en: {
       name: "House Cleaning",
       shortDesc: "Private house cleaning — any size",
@@ -668,8 +668,8 @@ export const services: Service[] = [
         "Ruohonleikkaus Riihimäellä, Hyvinkäällä ja Hämeenlinnassa. Omat koneet, ruohon keruu. Kausi touko–lokakuu.",
       h1: "Ruohonleikkaus — siisti piha ilman omaa työtä",
       intro:
-        "PalveMax leikkaa nurmikon säännöllisesti koko kauden — sinä vain tulet kotiin siistiin pihaan.",
-    },
+        "Suomen kesä on nopea. Toukokuun lopusta heinäkuun puoliväliin ruoho kasvaa nopeammin kuin ehtii ajatella niittämisestä. Jos kahden viikon paukon pitää — se ei ole enää nurmikko, se on niitty.\n\nTeemme säännöllistä aikataulua: joka 10–14. päivä. Tulemme, niitämme, käsittelemme reunat trimmillä, siivoamme ruohon. Tulet kotiin — kaikki on siistiä.",
+      },
     en: {
       name: "Lawn Mowing",
       shortDesc: "Regular lawn care all season",
@@ -752,8 +752,8 @@ export const services: Service[] = [
         "Pihansiivous Riihimäellä, Hyvinkäällä ja Hämeenlinnassa. Lehtien keruu, kevätsiivous, oksien keruu.",
       h1: "Pihanhoito — lehdet häviävät, piha kukkii",
       intro:
-        "PalveMax siivoaa pihan syksyllä ja keväällä — lehdet, oksat, hiekka. Pyydä tarjous.",
-    },
+        "Syksyllä Suomessa lehdet putoavat nopeasti ja paljon. Yhden tuulisen lokakuun päivän jälkeen 600 neliömetrin tontilla voi olla 15–20 cm paksu lehtikerros. Haravoimalla — puoli päivää. Tiimillemme — 1,5–2 tuntia.\n\nKeväällä toisenlainen tilanne: talvihiekoituksen hiekka, katkenneet oksat, roska. Hoidamme sekin.",
+      },
     en: {
       name: "Yard Cleaning",
       shortDesc: "Leaves, branches, spring and autumn yard work",
@@ -840,8 +840,8 @@ export const services: Service[] = [
         "Lumien auraus ja hiekoitus Riihimäellä, Hyvinkäällä ja Hämeenlinnassa. Talvikunnossapitosopimus kaudelle.",
       h1: "Lumityöt — lumisade yöllä, tie auki aamulla",
       intro:
-        "PalveMax hoitaa lumityöt koko talven — seuraamme säätä ja tulemme itse, sinun ei tarvitse soittaa joka kerran.",
-    },
+        "Tammikuussa Riihimäellä on 15–20 lumisadetta. Jokaisen jälkeen pitää aurata sisäänkäynti, jalkakäytävä, kuisti. Lapiolla — 40 minuuttia ja kipeä selkä. Lumilingolla — 10 minuuttia, mutta se pitää omistaa, säilyttää ja huoltaa.\n\nTai soitat kerran ja et mieti asiaa koko talven. Seuraamme säätiedotuksia ja tulemme itse — sinun ei tarvitse soittaa joka kerta.",
+      },
     en: {
       name: "Snow Removal",
       shortDesc: "Snow clearing, gritting, winter maintenance",
@@ -928,8 +928,8 @@ export const services: Service[] = [
         "Pienet korjaustyöt Riihimäellä ja Hyvinkäällä: ripustukset, lukot, ovet, TV-kiinnitykset. 45 €/h.",
       h1: "Pienet remontit — vuoden tehtävälista kiinni yhdellä käynnillä",
       intro:
-        "PalveMax hoitaa pienet korjaustyöt tehokkaasti — kerää lista, mies tulee ja tekee kaiken kerralla.",
-    },
+        "Useimmilla ihmisillä on lista 5–10 pienestä tehtävästä, joita lykätään kuukausien ajan. Ovi narisee. Pitäisi ripustaa peili. Hana vuotaa. Pitäisi kiinnittää verhotanko.\n\nJokainen tehtävä vie itsessään 20–40 minuuttia. Kokoa lista — asentaja tulee, hoitaa kaiken 2–3 tunnissa. Maksat kerran.",
+      },
     en: {
       name: "Minor Repairs",
       shortDesc: "Handyman — your list, one visit",

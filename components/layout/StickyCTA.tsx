@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { WHATSAPP_URL } from "@/lib/constants";
+import { getT, getLangFromPath, type Lang } from "@/lib/i18n";
 
 const WaIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -17,23 +19,18 @@ const FormIcon = () => (
 );
 
 export default function StickyCTA() {
+  const pathname = usePathname();
+  const lang = getLangFromPath(pathname) as Lang;
+  const t = getT(lang);
+
   return (
     <div className="sticky-cta md:hidden">
-      <a
-        href={WHATSAPP_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn-whatsapp flex-1 justify-center text-sm py-3"
-      >
-        <WaIcon />
-        WhatsApp
+      <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer"
+        className="btn-whatsapp flex-1 justify-center text-sm py-3">
+        <WaIcon />{t.sticky.whatsapp}
       </a>
-      <Link
-        href="/ru#forma"
-        className="btn-primary flex-1 justify-center text-sm py-3"
-      >
-        <FormIcon />
-        Заявка
+      <Link href={`/${lang}#forma`} className="btn-primary flex-1 justify-center text-sm py-3">
+        <FormIcon />{t.sticky.form}
       </Link>
     </div>
   );
