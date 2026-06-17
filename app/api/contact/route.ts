@@ -94,7 +94,7 @@ export async function POST(request: NextRequest) {
       `;
 
       const emailPayload: Record<string, unknown> = {
-        from: "PalveMax.fi <noreply@palvemax.fi>",
+        from: "PalveMax.fi <onboarding@resend.dev>",
         to: [process.env.CONTACT_EMAIL || "palvemax@gmail.com"],
         reply_to: email || undefined,
         subject: `Заявка: ${service} — ${city} (${name})`,
